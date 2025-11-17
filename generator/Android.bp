@@ -21,9 +21,4 @@ python_binary_host {
         include_dirs: ["external/protobuf/src"],
     },
     libs: ["libprotobuf-python"],
-    version: {
-        py3: {
-            embedded_launcher: true,
-        },
-   },
 }
